@@ -1,8 +1,5 @@
-# app.rb
 require 'sinatra'
 
 get '/' do
-  erb :index
+  "¡Hola, Heroku! Tu aplicación Ruby está funcionando."
 end
-
-set :port, ENV.fetch("PORT", 8080)
